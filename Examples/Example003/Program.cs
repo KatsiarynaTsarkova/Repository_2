@@ -1,11 +1,11 @@
 ﻿Console.WriteLine("ВВедите число от 1 до 10 ");
-string name = Console.Readline();
+string name = Console.ReadLine();
 int number = Convert.ToInt32(name);
-if(number%2 = 0)
+if(number % 2 == 0)
 {
-    Console.Writeline("Четное число");
+    Console.WriteLine("Четное число");
 }
-else if(number%2 > 0)
+else 
 {
-    Console.Writeline("Нечетное число");
+    Console.WriteLine("Нечетное число");
 }
